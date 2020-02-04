@@ -1,0 +1,254 @@
+    body {
+        margin: 0;
+        overflow-x: hidden;
+        min-width: 320px;
+        background: #d9d9d9;
+        font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        margin-right: 40px;
+    }
+    
+    .border-none {
+        border: none;
+    }
+    
+    .block {
+        display: block;
+    }
+    
+    .addl {
+        margin: 10px;
+    }
+    
+    body,
+    html {
+        font-size: 14px;
+    }
+    
+    .items-list {
+        background: #fff;
+    }
+    
+    .border {
+        margin: 20px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+    }
+    
+    .line {
+        border-top: 0.5px solid #cccccc;
+    }
+    
+    .button {
+        display: inline-block;
+        min-height: 1px;
+        vertical-align: middle;
+        background: linear-gradient(transparent, rgba(0, 0, 0, .05)) #F8F8F8;
+        color: #333333;
+        padding: 8px 18px 9px;
+        text-align: center;
+        border-radius: .4em;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    
+    .add {
+        background-color: #2185D0;
+        color: #FFF;
+        padding: 6px 30px 6px;
+        font-size: 1rem;
+        border: none;
+        margin-right: 15px;
+    }
+    
+    .input {
+        position: relative;
+        font-weight: 400;
+        display: inline-flex;
+        color: rgba(0, 0, 0, .87);
+    }
+    
+    .name {
+        font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+    
+    .smallb {
+        border: none;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 9px;
+        padding-right: 9px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 4px;
+        border-radius: 1000px;
+    }
+    
+    .pink {
+        background-color: #ffb3b3;
+    }
+    
+    .green {
+        background-color: #80ff80;
+    }
+    
+    .cross {
+        background-color: #ff1a1a;
+        border-radius: 6px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .bottom {
+        border-bottom: 0.5px solid #cccccc;
+    }
+    
+    .second {
+        flex-direction: column;
+        position: relative;
+        margin: 1rem 0;
+        border: 1px solid rgba(34, 36, 38, .15);
+        box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
+        border-radius: .28571429rem;
+    }
+    
+    .label {
+        display: inline-block;
+        line-height: 1;
+        vertical-align: baseline;
+        margin: 0 .14285714em;
+        background-color: #E8E8E8;
+        padding: .5833em .833em;
+        color: rgba(0, 0, 0, .6);
+        text-transform: none;
+        font-weight: 700;
+        border: 0 solid transparent;
+        border-radius: .28571429rem;
+        transition: background .1s ease;
+        font-size: .64285714rem;
+    }
+    
+    .font {
+        font-size: 15px;
+    }
+    
+    .product {
+        padding: 10px;
+    }
+    
+    .up {
+        width: 12px;
+        height: 14px;
+        text-align: center;
+    }
+    
+    .orange {
+        background-color: #ff6600;
+        padding: 4px 6px 5px;
+        border-radius: 100px;
+        margin-left: 0px;
+    }
+    
+    .dod {
+        padding-right: 10px;
+    }
+    
+    .width {
+        width: 33%!important;
+    }
+    
+    .printed {
+        display: none;
+        position: fixed;
+        background-color: white;
+        border: 1px solid black;
+        border-width: 5px !;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        margin-left: 20px;
+        position: fixed;
+        border-radius: 8px 8px 0px 0px;
+        bottom: 0;
+    }
+    
+    @media print {
+        .printed {
+            display: block!important;
+        }
+        .badge {
+            display: none;
+        }
+    }
+    
+    .badge:hover {
+        background-color: rebeccapurple;
+        height: 100px;
+    }
+    
+    .badge {
+        transition: top ease 0.2s;
+        margin-top: 110px;
+        margin-left: 20px;
+        color: white;
+        background-color: #ff00ff;
+        width: 100px;
+        height: 50px;
+        border-radius: 8px 8px 0px 0px;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+    }
+    
+    .tooltip::after {
+        width: 10%;
+        height: 3%;
+        background-color: #ff00ff;
+        border-radius: 8px 8px 8px 8px;
+        color: #FFF;
+        content: attr(data-tooltip);
+        margin-top: -35px;
+        opacity: 0;
+        padding: 3px 7px;
+        position: absolute;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+    
+    .tooltip:hover::after {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .container {
+        display: inline-flex;
+    }
+    
+    .flex-direction {
+        flex-direction: row;
+    }
+    
+    .div1 {
+        margin-top: 120px;
+        width: 500px;
+    }
+    
+    .div2 {
+        margin-top: 120px;
+        width: 30%;
+    }
+    
+    @media screen and (max-width: 700px) {
+        .flex-direction {
+            flex-direction: column;
+        }
+        .div2 {
+            width: 500px;
+        }
+        .div1 {
+            width: 500px;
+        }
+    }
