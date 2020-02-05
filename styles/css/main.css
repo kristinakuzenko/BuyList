@@ -135,6 +135,10 @@
         font-size: 15px;
     }
     
+    .mini {
+        margin: 5px;
+    }
+    
     .product {
         padding: 10px;
     }
@@ -251,4 +255,21 @@
         .div1 {
             width: 500px;
         }
+    }
+    
+    .inline {
+        display: inline;
+    }
+    
+    .none {
+        display: none;
+    }
+    
+    .crossed {
+        text-decoration: line-through;
+    }
+    
+    #my-input {
+        height: 35px;
+        width: 71%;
     }
