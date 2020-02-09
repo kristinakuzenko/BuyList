@@ -16,14 +16,16 @@
                     <div class="border-none"><input id="my-input" class="border-none" type="text" placeholder=" Назва товару">
                         <button id="add" class=" tooltip add button " data-tooltip="Add">Додати</button></div>
                 </div>
+
                 <div class="none">
+
                     <div id="line" class=" block">
                         <div style="display: flex;">
                             <div class="product width line"><span class="product ">Помідори</span>
 
                             </div>
-                            <div class="width line"><button id="minus" class=" tooltip smallb pink" data-tooltip="Minus" disabled><span class="font">&#8722;</span></button></i>
-                                </button> <span class="label up">1</span>
+                            <div class="width line"><button id="minus" class=" tooltip smallb pink" data-tooltip="Minus"><span class="font">&#8722;</span></button></i>
+                                </button> <span id="qty" class="label up">1</span>
                                 <button id="plus" class=" tooltip smallb green" data-tooltip="Plus"><span class="font">&#43;</span></button></div>
                             <div class=" width line"><button class=" tooltip button " id="bought" data-tooltip="Buy">Куплено</button> <button id="delete" class="smallb cross tooltip" data-tooltip="Delete"><span style='font-size:15px;'>&#10006;</span></button>
                             </div>
@@ -40,7 +42,7 @@
                 <div id="mini">
                     <div id="mini-product">
                         <div class="none">
-                            <div class="inline" id="pr"><span class="label bottom mini"><span id="name" class="title ">Помідори</span> <span class="orange smallb">1</span></span>
+                            <div class="inline" id="pr"><span class="label bottom mini"><span id="name" class="title ">Помідори</span> <span id="qty" class="orange smallb">1</span></span>
                             </div>
                         </div>
                     </div>
@@ -55,7 +57,7 @@
             </div>
         </div>
     </div>
-    <div class="inline none" id="buyp"><span class="label bottom mini"><span id="name" class="title crossed">Помідори</span> <span class="orange smallb">1</span></span>
+    <div class="inline none" id="buyp"><span class="label bottom mini"><span id="name" class="title crossed">Помідори</span> <span class="orange smallb crossed">1</span></span>
     </div>
     <div class="printed">Created by: Kristina Kuzenko</div>
     <div class="badge"> Buy List <br> <br> <br> Created by: Kristina Kuzenko
